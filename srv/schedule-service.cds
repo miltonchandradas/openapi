@@ -1,8 +1,8 @@
 using {demo} from '../db/schema';
 
-@path: 'service/schedule'
+@path: 'service/openapi'
 
-service ScheduleService {
+service OpenAPIService {
     entity Employees AS SELECT FROM demo.Employees;
 
     function someFunctionExample() returns String;
